@@ -1,3 +1,5 @@
+# terraform (for creating VM)
+
 kita akan melakukan tugas akhir pada OS ubuntu dan akan dimulai dengan terraform untuk membuat vm 
 
 dengan spesifikasi
@@ -11,9 +13,9 @@ buat file main.tf
 
 kemudian jalankan terraform init, terraform validate, dan terraform apply
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/ac5c4b4a-3c3e-467d-8a2a-1403619287a9)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/240e27f7-de2b-4047-bb1d-accda79216ea)
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/f2df80f5-34cd-4f64-a6b7-58ae9eaaab4d)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/28cf6748-1762-4903-851c-3499d582f590)
 
 kemudian lakukan hal yang sama untuk gateway dan monitoring
 
