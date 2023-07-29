@@ -19,11 +19,11 @@ kemudian jalankan terraform init, terraform validate, dan terraform apply
 
 kemudian lakukan hal yang sama untuk gateway dan monitoring
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/7fc2404f-e21c-43e4-800d-eca7e01f53e9)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/eb138845-9f08-4e51-97b6-ecad30915bbb)
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/10a487e8-f038-4804-8fc8-67be0596f404)
+![Screenshot from 2023-07-29 09-55-16](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/d35e938f-504f-4c49-8bb1-c31833d9bc1c)
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/4a2790af-34de-404c-921f-313c7a9bdb9d)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/6153ad8e-60b7-4280-a70e-4ad8dfe43169)
 
 # ansible (for installation inside VM)
 
