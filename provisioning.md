@@ -24,3 +24,15 @@ kemudian lakukan hal yang sama untuk gateway dan monitoring
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/10a487e8-f038-4804-8fc8-67be0596f404)
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/4a2790af-34de-404c-921f-313c7a9bdb9d)
+
+# ansible (for installation inside VM)
+
+buat file ansible.cfg
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/8646410f-600d-422b-81f2-2b2cb2c39077)
+
+setup Inventory
+
+
+### Docker
+
