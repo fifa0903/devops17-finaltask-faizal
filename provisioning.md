@@ -55,3 +55,10 @@ setup Inventory
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/1db80ab1-9cde-4562-82da-23212e4569d7)
 
+### disable password login
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/ac4816cb-2adf-4147-ae1c-c1ce486a8160)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/bd7cb23b-b076-485a-8c98-3d645bdda4c2)
+
+
