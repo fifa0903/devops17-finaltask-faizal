@@ -33,6 +33,15 @@ buat file ansible.cfg
 
 setup Inventory
 
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/fc2f7786-9b2e-4eb0-80da-04f5de4b270f)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/e8bffe97-de6f-48ae-9b65-e82fc88802f6)
 
 ### Docker
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/0b392e24-e370-487b-9664-001244966fd2)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/d72c97fc-bae1-4385-8f3c-3b1c9a0d334a)
+
+
 
