@@ -43,5 +43,15 @@ setup Inventory
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/d72c97fc-bae1-4385-8f3c-3b1c9a0d334a)
 
+### node exporter
 
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/e7e9952c-8441-4e20-ae48-450b795a14cd)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/56d52723-2ab8-4c9c-8312-ad7f0b506c40)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/dcadd138-8540-41db-abfb-1ecd1490f6cb)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/e17d1c0f-5660-433e-8510-9f4688bee627)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/1db80ab1-9cde-4562-82da-23212e4569d7)
 
