@@ -28,5 +28,21 @@ jika sudah berhasil maka repo private sudah terhubung ke server
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/f0760d2a-c1bd-4a21-8f6c-dac3c5e343be)
 
+buat branch baru untuk production dan push ke github repo
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/a90f58c1-6b67-4051-b79a-3a558dd93bc6)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/9f58fb72-ec9d-4f8d-9637-1ec68dd9fed8)
+
 lakukan hal yang sama pada backend
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/e38f111a-66c9-44df-9d13-8b19bf8667e0)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/ef8cc412-4aa4-4957-986b-8ed81ceff8cc)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/2f9c7509-f2bf-430a-9450-2116a1001798)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/572e7124-a5c3-423d-8086-5c931dddf702)
+
+
 
