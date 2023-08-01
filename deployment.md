@@ -194,3 +194,13 @@ making docker compose
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/159d5243-55c7-478a-9cc1-1648eeb1c43a)
 
+kita bisa melihat databasenya 
+
+```
+\c (masuk database)
+\d (melihat table)
+SELECT * FROM users; 
+```
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/da34271d-3c81-4995-9d91-d827e9e56e11)
+
