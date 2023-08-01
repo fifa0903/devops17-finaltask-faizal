@@ -128,5 +128,69 @@ kemudian setup buat backend
 ```
 making docker compose
 ```
+- become: true
+  gather_facts: false
+  hosts: appserver
+  tasks:
+    - name: "compose down"
+      docker_compose:
+        project_src: "/home/nobody1305"
+        files:
+          - docker-compose.yml
+        state: absent
+    - name: "making docker compose"
+      copy:
+        dest: "/home/nobody1305/docker-compose.yml"
+        content: |
+          version: "3.8"
+          services:
+            db:
+               image: postgres
+               restart: always
+               container_name: db-dumbmerch
+               expose:
+                 - 5432
+               ports:
+                 - 5432:5432
+               volumes:
+                 - ~/postgresql:/var/lib/postgresql/data
+               environment:
+                 - POSTGRES_ROOT_PASSWORD=faizal1305
+                 - POSTGRES_USER=nobody1305
+                 - POSTGRES_PASSWORD=faizal1305
+                 - POSTGRES_DATABASE=dumbmerch
+            backend:
+              depends_on:
+                 - db
+              build: ./be-dumbmerch
+              image: nobody1305/be-dumbmerch
+              container_name: be-dumbmerch
+              stdin_open: true
+              restart: unless-stopped
+              ports:
+                 - 5000:5000
+            frontend:
+              build: ./fe-dumbmerch
+              image: nobody1305/fe-dumbmerch
+              container_name: fe-dumbmerch
+              stdin_open: true
+              restart: unless-stopped
+              ports:
+                - 3000:3000
+#    - name: "Install docker-compose python package"
+#      ansible.builtin.pip:
+#        name: docker-compose
+    - name: "Create and start services"
+      docker_compose:
+        project_src: "/home/nobody1305"
+        files:
+          - docker-compose.yml
+        recreate: smart
+
 ```
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/05e252c3-9359-4994-bc6d-7432961699c5)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/9f568be3-10c8-4abc-ad01-242741611bbf)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/159d5243-55c7-478a-9cc1-1648eeb1c43a)
+
