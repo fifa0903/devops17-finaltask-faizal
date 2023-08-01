@@ -44,3 +44,89 @@
 
 ```
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/b753f6d1-82ff-47ae-839c-4b4a2dbf0ebb)
+
+jalankan postgresql dan masuk untuk membuat database
+
+```
+- become: true
+  gather_facts: false
+  hosts: appserver
+  tasks:
+    - name: "create postgresql.yml"
+      copy:
+        dest: "/home/nobody1305/postgresql.yml"
+        content: |
+          version: '3.8'
+          services:
+             db:
+               image: postgres
+               restart: always
+               container_name: db-dumbmerch
+               expose:
+                 - 5432
+               ports:
+                 - 5432:5432
+               volumes:
+                 - ~/postgresql:/var/lib/postgresql/data
+               environment:
+                 - POSTGRES_ROOT_PASSWORD=faizal1305
+                 - POSTGRES_USER=nobody1305
+                 - POSTGRES_PASSWORD=faizal1305
+                 - POSTGRES_DATABASE=dumbmerch
+    - name: "Install docker-compose python package"
+      ansible.builtin.pip:
+        name: docker-compose
+    - name: "start postgresql.yml"
+      community.docker.docker_compose:
+        project_src: "/home/nobody1305"
+        files:
+          - postgresql.yml
+        recreate: smart
+
+```
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/b71e5e64-6594-49e0-bec7-fd53d5040857)
+
+kemudian setup buat backend 
+
+```
+- become: true
+  gather_facts: false
+  hosts: appserver
+  tasks:
+#    - name: "Ensure repo is up-to-date"
+#      git:
+#        repo: https://github.com/fifa0903/be-dumbmerch
+#        dest: /home/nobody1305/be-dumbmerch
+    - name: "setup .env"
+      copy:
+        dest: "/home/nobody1305/be-dumbmerch/.env"
+        content: |
+          #SECRET_KEY=bolehapaaja
+          #PATH_FILE=http://localhost:5000/uploads/
+          #SERVER_KEY=SB-Mid-server-fJAy6udMPnJCIyFguce8Eot3
+          #CLIENT_KEY=SB-Mid-client-YUogx3u74Gq9MTMS
+          #EMAIL_SYSTEM=demo.dumbways@gmail.com
+          #PASSWORD_SYSTEM=rbgmgzzcmrfdtbpu
+            DB_HOST=103.31.38.86
+            DB_USER=nobody1305
+            DB_PASSWORD=faizal1305
+            DB_NAME=dumbmerch
+            DB_PORT=5432 
+            PORT=5000
+    - name: "making dockerfile"
+      copy:
+        dest: "/home/nobody1305/be-dumbmerch/Dockerfile"
+        content: |
+          FROM golang:1.20-alpine
+          WORKDIR /app
+          COPY . /app
+          RUN go get -x ./
+          RUN go build
+          RUN go mod download 
+          EXPOSE 5000
+          CMD ["go", "run", "main.go"]
+```
+making docker compose
+```
+```
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/05e252c3-9359-4994-bc6d-7432961699c5)
