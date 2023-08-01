@@ -120,11 +120,14 @@ kemudian setup buat backend
           FROM golang:1.20-alpine
           WORKDIR /app
           COPY . /app
-          RUN go get -x ./
-          RUN go build
-          RUN go mod download 
+          RUN go install github.com/beego/bee/v2@latest
+          #RUN go get -x ./
+          #RUN go build
+          RUN go mod download
+          RUN go mod tidy 
           EXPOSE 5000
-          CMD ["go", "run", "main.go"]
+          CMD ["bee", "run"]
+
 ```
 making docker compose
 ```
@@ -185,7 +188,7 @@ making docker compose
         project_src: "/home/nobody1305"
         files:
           - docker-compose.yml
-        recreate: smart
+        recreate: always
 
 ```
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/05e252c3-9359-4994-bc6d-7432961699c5)
