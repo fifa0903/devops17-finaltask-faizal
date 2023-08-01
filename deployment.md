@@ -190,7 +190,7 @@ making docker compose
 ```
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/05e252c3-9359-4994-bc6d-7432961699c5)
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/9f568be3-10c8-4abc-ad01-242741611bbf)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/d5bc2c3e-f57b-4cd9-b070-b52443fac9d1)
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/159d5243-55c7-478a-9cc1-1648eeb1c43a)
 
