@@ -68,6 +68,40 @@
                        proxy_pass http://116.193.190.5:8080;
               }
           }
+    - name: "create rproxy nodeapp"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodeapp.conf"
+        content: |
+          server {
+              server_name nodeapp.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://103.31.38.86:9100;
+              }
+          }
+    - name: "create rproxy nodegate"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodegate.conf"
+        content: |
+          server {
+              server_name nodegate.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://103.226.138.6:9100;
+              }
+          }
+    - name: "create rproxy nodemonit"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodemonit.conf"
+        content: |
+          server {
+              server_name nodemonit.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://116.193.190.5:9100;
+              }
+          }
+
     - name: "reload nginx"
       service:
         name: nginx
@@ -84,7 +118,7 @@
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/a2625a19-0f78-4460-b45d-5a3c70e2f9dd)
 
-![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/6b2d9eef-e154-4e61-8baa-0da6a6dd5a9f)
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/166ce7a0-f936-4c0f-84aa-d7ad9ef620e9)
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/213439d3-b718-487a-bd70-fa563b19e57f)
 
