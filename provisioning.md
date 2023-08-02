@@ -184,6 +184,40 @@ setup Inventory
                        proxy_pass http://116.193.190.5:8080;
               }
           }
+    - name: "create rproxy nodeapp"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodeapp.conf"
+        content: |
+          server {
+              server_name nodeapp.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://103.31.38.86:9100;
+              }
+          }
+    - name: "create rproxy nodegate"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodegate.conf"
+        content: |
+          server {
+              server_name nodegate.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://103.226.138.6:9100;
+              }
+          }
+    - name: "create rproxy nodemonit"
+      copy:
+        dest: "/etc/nginx/sites-enabled/nodemonit.conf"
+        content: |
+          server {
+              server_name nodemonit.faizal.studentdumbways.my.id;
+
+              location / {
+                       proxy_pass http://116.193.190.5:9100;
+              }
+          }
+
     - name: "reload nginx"
       service:
         name: nginx
