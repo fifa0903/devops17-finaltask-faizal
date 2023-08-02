@@ -19,11 +19,11 @@
            - job_name: 'prometheus_metrics'
              scrape_interval: 5s
              static_configs:
-               - targets: ['https://prometheus.faizal.studentdumbways.my.id']
+               - targets: ['prometheus.faizal.studentdumbways.my.id']
            - job_name: 'node_exporter_metrics'
              scrape_interval: 5s
              static_configs:
-               - targets: ['https://nodeapp.faizal.studentdumbways.my.id','https://nodegate.faizal.studentdumbways.my.id','https://nodemonit.faizal.studentdumbways.my.id']
+               - targets: ['nodeapp.faizal.studentdumbways.my.id','nodegate.faizal.studentdumbways.my.id','nodemonit.faizal.studentdumbways.my.id']
     - name: "create volume grafana"
       ansible.builtin.file:
         path: /grafana
@@ -68,3 +68,6 @@
 ```
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/08e7b0c7-c125-43b6-b941-73d735e02788)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/94ea39b8-60e6-48ef-8d3c-3b860435a633)
+
