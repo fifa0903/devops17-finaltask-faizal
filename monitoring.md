@@ -71,3 +71,7 @@
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/94ea39b8-60e6-48ef-8d3c-3b860435a633)
 
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/bea734f2-4b9c-4bc5-b3c1-565bb87aa8b8)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/27575623-8c9f-4cf7-a81e-0dd8e5a5a2cc)
+
