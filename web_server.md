@@ -74,6 +74,8 @@
         state: reloaded
 
 ```
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/e81591e2-42f0-473d-9d45-212942c4d212)
+
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/1a727a8e-1efb-41f7-a0d7-7067e5e60717)
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/c6a3bf58-3381-4940-808b-9f0a5ac4a0f4)
