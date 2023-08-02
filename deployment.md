@@ -207,3 +207,10 @@ SELECT * FROM users;
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/da34271d-3c81-4995-9d91-d827e9e56e11)
 
+# CICD
+
+buat kredensial di jenkins dan github private repo
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/52c76588-46fe-4fa4-b23d-dc7ff3a39ca3)
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/be6c9fec-be59-4ea8-a907-ec4cf553eb52)
