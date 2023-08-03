@@ -219,4 +219,10 @@ buat kredensial di jenkins dan github private repo
 
 ![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/cca60d9a-6d72-416a-aaaa-7f03b3fa9ee4)
 
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/d2b9997b-b3e0-4efe-a3a1-dad55b6d3bfb)
+
+lakukan hal sama dengan backend
+
+![image](https://github.com/fifa0903/devops17-finaltask-faizal/assets/132969781/5e571a83-de94-410e-b214-94d9c9148598)
+
 
